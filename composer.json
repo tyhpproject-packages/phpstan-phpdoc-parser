@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/phpstan-phpdoc-parser",
+    "description": "Tyhp type definitions for phpstan/phpdoc-parser 2.3.5.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.3.5",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/phpstan-phpdoc-parser-impl": "~2.3.5.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/phpstan-phpdoc-parser-impl"
+        }
+    }
+}
